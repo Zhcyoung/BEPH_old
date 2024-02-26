@@ -5,11 +5,11 @@ Official repo for [XXXXX](https://www.XXXX), which is based on [BEiTv2](https://
 
 *It is worth noting that the BEiT implementation we use comes from mmpretrain[https://github.com/open-mmlab/mmpretrain].
 
-<img src="https://raw.githubusercontent.com/Zhcyoung/Image_hosting_service/main/overflow2.jpg" alt="overflow2" style="zoom: 200%;" />
+<img src="https://raw.githubusercontent.com/Zhcyoung/Image_hosting_service/main/overflow2.jpg" alt="overflow2" style="zoom: 1%;" />
 
 ## Key Features
 
-This is the repo for the paper [RETFound: a foundation model for generalizable disease detection from retinal images](https://www.nature.com/articles/s41586-023-06555-x) led by ZhaochangYang and XXXXX:
+This is the repo for the paper XXXXXXX led by ZhaochangYang and XXXXX:
 
 - BEPH is pre-trained on 11 million histopathological images  from TCGA with self-supervised learning
 - BEPH has been validated in multiple cancer detection  and survival prediction tasks
@@ -55,7 +55,7 @@ We downloaded diagnostic whole-slide images (WSIs) for 32 cancer types using [th
 
 
 
-<img src="https://raw.githubusercontent.com/Zhcyoung/Image_hosting_service/main/采样2.png" alt="采样2" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/Zhcyoung/Image_hosting_service/main/采样2.png" alt="采样2" style="zoom: 1%;" />
 
 For pre-training,each cancer type is organized as its own folder in `TCGA_ROOT_DIR`, which additionally contains the following subfolders: 
 
