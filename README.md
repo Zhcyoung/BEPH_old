@@ -76,7 +76,7 @@ TCGA_ROOT_DIR/
     	├── ...
 ```
 
-And generate a pre-train.txt containing the filename:高亮的文字
+And generate a pre-train.txt containing the filename:
 
 ```
 ./tcga_hnsc/TCGA-CV-A6JZ-01Z-00-DX1/6_30.png
@@ -87,13 +87,13 @@ And generate a pre-train.txt containing the filename:高亮的文字
 
 And then modify the pre-train config file:beitv2_vit.py 
 
-<pre>   
+
 <code>   
 train_dataloader = dict(
     batch_size=256,
     collate_fn=dict(type='default_collate'),
     dataset=dict(
-        ann_file= <span style="background-color: yellow;">'pre-train.txt' </span>, 
+        ann_file= 'pre-train.txt' , ###Change to your pre-training file
         data_prefix=dict(img_path='Cancer_patches/'),
         data_root=data_root,
         pipeline=[
@@ -107,7 +107,7 @@ train_dataloader = dict(
             ... ...,
             )
 </code> 
-</pre>
+
 
 Pre-training Command:
 
